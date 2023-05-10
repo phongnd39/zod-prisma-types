@@ -11,14 +11,15 @@ export type ZodCustomErrorKey =
 // REGEX
 /////////////////////////////////////////////////
 
+
 export const VALIDATOR_CUSTOM_ERROR_REGEX =
-  /(\()(?<object>\{(?<messages>[\w\W\p{Script=Latin}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}\p{M} ()-.,'ʼ:+\-*#!§$%&/{}[\]=?~><°^|]+)\})(\))/u;
+  /(\()(?<object>\{(?<messages>[\w\W\p{Script=Latin}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}\p{M} ()-.,'ʼ"。、ー「」・：（）※ﾞﾟ　:+\-*#!§$%&/{}[\]=?~><°^|]+)\})(\))/u;
 
 // !!!! non word characters (/W) must not be included in the regex
 // since it would break the split into an array !!!!
 
 export const VALIDATOR_CUSTOM_ERROR_MESSAGE_REGEX =
-  /[ ]?"[\w\p{Script=Latin}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}\p{M} ()-.,'ʼ:+\-*#!§$%&/{}[\]=?~><°^|]+"[,]?[ ]?/gu;
+  /[ ]?"[\w\p{Script=Latin}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Han}\p{M} ()-.,'ʼ。、ー「」・：（）※ﾞﾟ　:+\-*#!§$%&/{}[\]=?~><°^|]+"[,]?[ ]?/gu;
 
 export const VALIDATOR_CUSTOM_ERROR_SPLIT_KEYS_REGEX = /[\w]+(?=:)/gu;
 
