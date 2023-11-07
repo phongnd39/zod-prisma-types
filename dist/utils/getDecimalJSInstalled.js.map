@@ -1,0 +1,1 @@
+{"version":3,"file":"getDecimalJSInstalled.js","sourceRoot":"","sources":["../../src/utils/getDecimalJSInstalled.ts"],"names":[],"mappings":";;;AAAO,MAAM,qBAAqB,GAAG,GAAG,EAAE;IACxC,IAAI;QACF,OAAO,CAAC,OAAO,CAAC,YAAY,CAAC,CAAC;QAC9B,OAAO,IAAI,CAAC;KACb;IAAC,OAAO,EAAE,EAAE;QACX,OAAO,KAAK,CAAC;KACd;AACH,CAAC,CAAC;AAPW,QAAA,qBAAqB,yBAOhC"}
